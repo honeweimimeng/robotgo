@@ -1,4 +1,4 @@
-module github.com/go-vgo/robotgo
+module github.com/honeweimimeng/robotgo
 
 go 1.17
 
@@ -20,7 +20,6 @@ require (
 	github.com/jezek/xgb v1.1.0 // indirect
 	github.com/kbinani/screenshot v0.0.0-20210720154843-7d3a670d8329
 	github.com/lufia/plan9stats v0.0.0-20230110061619-bbe2e5e100de // indirect
-	github.com/otiai10/mint v1.3.0 // indirect
 	github.com/power-devops/perfstat v0.0.0-20221212215047-62379fc7944b // indirect
 	github.com/shirou/gopsutil/v3 v3.23.1 // indirect
 	github.com/tklauser/go-sysconf v0.3.11 // indirect
@@ -29,6 +28,10 @@ require (
 	golang.org/x/image v0.5.0 // indirect
 	golang.org/x/sys v0.5.0 // indirect
 )
+
+require github.com/go-vgo/robotgo v0.100.10
+
+require github.com/robotn/gohook v0.31.3 // indirect
 
 // replace golang.org/x/sys => github.com/golang/sys v0.0.0-20190109145017-48ac38b7c8cb
 
