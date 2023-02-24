@@ -21,3 +21,7 @@ func ScaleF(displayId ...int) float64 {
 	}
 	return f
 }
+
+func ScaleFSys() float64 {
+	return ScaleF()
+}
